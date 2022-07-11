@@ -8,7 +8,6 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = {
   root: {
     flexGrow: 1,
-    backgroundColor: "#317EFB"
   },
   flex: {
     flex: 1,
@@ -32,7 +31,7 @@ class Header extends React.Component {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="headline" color="inherit" className={this.props.classes.flex}>
-              Tony's Favorite Foods
+              Nature's Gallery
             </Typography>
           </Toolbar>
         </AppBar>

@@ -9,8 +9,9 @@ import Pages from './Pages.jsx';
 import Card from './Card.jsx';
 import Home from './Home.jsx';
 import model from './model.js';
+import Footer from './Footer.jsx'
 
-const primary = '#9b5d30';
+const primary = '#237606';
 
 const theme = createMuiTheme({
   palette: {
@@ -47,7 +48,7 @@ class App extends React.Component {
             <Route path="/pezza" component={Pages.Pezza}/>
             <Route path="/fesh" component={Pages.Fesh}/>
             <Route path="/soop" component={Pages.Soop}/>
-            <Typography variant="body1">Built with 🐟 by Tony the 🐈</Typography>
+            <Footer/>
           </div>
         </MuiThemeProvider>
       </Router>

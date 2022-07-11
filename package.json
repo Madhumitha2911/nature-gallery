@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack",
     "start": "npm run build && node server.js",
-    "develop": "npm run build && nodemon server.js"
+    "develop": "webpack --watch & nodemon server.js"
   },
   "dependencies": {
     "@material-ui/core": "^1.2.0",
