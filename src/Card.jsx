@@ -13,7 +13,8 @@ const styles = theme => ({
     margin: theme.spacing.unit
   },
   card: {
-    width: 300
+    width: 300,
+    height: '330px'
   },
   media: {
     height: 0,
@@ -33,12 +34,12 @@ class MyCard extends React.Component {
               {this.props.title}
             </Typography>
             <Typography component="p">
-              {this.props.description}
+              {this.props.location}
             </Typography>
           </CardContent>
           <CardActions className={this.props.classes.actions}>
             <Button size="small" color="primary" variant="raised" component={Link} to={this.props.route}>
-              Pros & Cons
+              See Full Info
             </Button>
           </CardActions>
         </MaterialUICard>

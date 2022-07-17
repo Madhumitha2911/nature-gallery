@@ -1,14 +1,10 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Header.jsx';
 import Pages from './Pages.jsx';
-import Card from './Card.jsx';
 import Home from './Home.jsx';
-import model from './model.js';
 import Footer from './Footer.jsx'
 
 const primary = '#237606';
@@ -44,10 +40,12 @@ class App extends React.Component {
           <div>
             <Header/>
             <Route exact path="/" component={Home}/>
-            <Route path="/brrto" component={Pages.Brrto}/>
-            <Route path="/pezza" component={Pages.Pezza}/>
-            <Route path="/fesh" component={Pages.Fesh}/>
-            <Route path="/soop" component={Pages.Soop}/>
+            <Route path="/aurora" component={Pages['Aurora']}/>
+            <Route path="/mount-everest" component={Pages['Mount Everest']}/>
+            <Route path="/great-barrier-reef" component={Pages['Great Barrier Reef']}/>
+            <Route path="/grand-canyon" component={Pages['Grand Canyon']}/>
+            <Route path="/jeju-island" component={Pages['Jeju Island']}/>
+            <Route path="/guanabara-bay" component={Pages['Guanabara Bay']}/>
             <Footer/>
           </div>
         </MuiThemeProvider>

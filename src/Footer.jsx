@@ -11,7 +11,7 @@ const styles = theme => ({
         backgroundColor: "#237606",
         position: 'fixed',
         width: '100%',
-        padding: '20px'
+        padding: '10px'
         
     },
     text: {
@@ -24,9 +24,9 @@ class Footer extends React.Component {
       render() {
 
         return (
-            <Toolbar class={this.props.classes.root}>
-                <Typography variant='caption' class={this.props.classes.text}>Created by Madhumitha</Typography>
-            </Toolbar>
+            <div className={this.props.classes.root}>
+                <Typography variant='subheading' className={this.props.classes.text}>Created by Madhumitha</Typography>
+            </div>
         );
 
       }
