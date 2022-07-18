@@ -4,7 +4,7 @@ fileignoreconfig:
 - filename: src/Home.jsx
   checksum: 8976e2fea14775e78a77133f058aeefd8d5f315beba0eff1c7fc1c0c9a5baef9
 - filename: src/Page.jsx
-  checksum: a8f870d29d13b058bc6a02e1a06f55a5e6b70338d7e64b9992e41348ee728637
+  checksum: 8833b6a5c25e96b1a8d208fe78c256b258188d4f14912c709c2e510dab57ec11
 - filename: src/Pages.jsx
   checksum: d5f4dfff7cf4f5a86ff85332ffb76a35152238c4c1cda27d790c28e58336eb5e
 version: "1.0"

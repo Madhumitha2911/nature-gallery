@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   root: {
-    margin: theme.spacing.unit
+    margin: '20px'
   },
   card: {
     width: 300,

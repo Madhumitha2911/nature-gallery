@@ -21,7 +21,7 @@ const model = [
   },
   {
     name: 'Great Barrier Reef',
-    location: 'Coral Sea, off the coast of Queensland, Australia,',
+    location: 'Coral Sea, off the coast of Queensland, Australia',
     about: 'world\'s largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometers (1,400 mi) over an area of approximately 344,400 square kilometers (133,000 sq mi)',
     imageLink: `https://raw.githubusercontent.com/Madhumitha2911/nature-gallery-images/main/${dir}/great-barrier-reef.jpg`,
     facts: ['This reef structure is composed of and built by billions of tiny organisms, known as coral polyps. It supports a wide diversity of life and was selected as a World Heritage Site in 1981', 'A large part of the reef is protected by the Great Barrier Reef Marine Park, which helps to limit the impact of human use, such as fishing and tourism'],
