@@ -14,11 +14,10 @@ const styles = theme => ({
   },
   card: {
     width: 300,
-    height: '330px'
+    height: 'unset'
   },
   media: {
-    height: 0,
-    paddingTop: '56.25%'
+   width: '100%',
   }
 });
 
@@ -27,8 +26,7 @@ class MyCard extends React.Component {
     return (
       <div className={this.props.classes.root}>
         <MaterialUICard className={this.props.classes.card}>
-          <CardMedia className={this.props.classes.media}
-            image={this.props.image} />
+            <img className={this.props.classes.media} src={`${this.props.image}`}></img>
           <CardContent>
             <Typography gutterBottom variant="headline" component="h2">
               {this.props.title}

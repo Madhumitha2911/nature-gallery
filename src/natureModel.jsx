@@ -1,6 +1,6 @@
 const base = '/imgs';
 const width = 1500;
-const dir = 'small';
+const dir = 'big';
 
 const model = [
   {
