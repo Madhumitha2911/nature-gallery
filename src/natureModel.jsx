@@ -37,7 +37,7 @@ const model = [
   },
   {
     name: 'Grand Canyon',
-    location: 'Arizona, United States',
+    location: 'Northern Arizona, encompasses Colorado River , United States',
     about: 'The Grand Canyon is a steep-sided canyon carved by the Colorado River',
     imageLink: `https://raw.githubusercontent.com/Madhumitha2911/nature-gallery-images/main/${dir}/grand-canyon.jpeg`,
     facts: ['The canyon and adjacent rim are contained within Grand Canyon National Park, the Kaibab National Forest, Grand Canyon–Parashant National Monument, the Hualapai Indian Reservation, the Havasupai Indian Reservation and the Navajo Nation.', 'President Theodore Roosevelt was a major proponent of the preservation of the Grand Canyon area and visited it on numerous occasions to hunt and enjoy the scenery.'],
@@ -45,7 +45,7 @@ const model = [
   },
   {
     name: 'Jeju Island',
-    location: 'South Korea',
+    location: 'Korea Strait, southwest of South Jeolla Province, South Korea',
     about: 'Jeju Island is South Korea\'s largest island, covering an area of 1,833.2 km2 (707.8 sq mi), which is 1.83 percent of the total area of the country. It is also the most populous island in South Korea; in 2020, the resident registration population is about 670,000',
     imageLink: `https://github.com/Madhumitha2911/nature-gallery-images/blob/main/${dir}/jeju-island.jpeg?raw=true`,
     facts: ['The island lies in the Korea Strait, south of the Korean Peninsula, and South Jeolla Province. It is located 82.8 km (51.4 mi) off the nearest point on the peninsula.', 'Jeju is the only self-governing province in South Korea, meaning that the province is run by local inhabitants instead of politicians from the mainland.'],
