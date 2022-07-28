@@ -11,6 +11,9 @@ const styles = {
   },
   flex: {
     flex: 1,
+  },
+  image: {
+    width: '100%'
   }
 };
 
@@ -27,6 +30,7 @@ class Header extends React.Component {
   }
   render() {
     return (
+      <div>
       <div className={this.props.classes.root}>
         <AppBar position="static">
           <Toolbar>
@@ -35,6 +39,8 @@ class Header extends React.Component {
             </Typography>
           </Toolbar>
         </AppBar>
+      </div>
+      <img className={this.props.classes.image} src="https://raw.githubusercontent.com/Madhumitha2911/nature-gallery-images/main/banner-image.jpg" alt="banner"></img>
       </div>
     );
   }

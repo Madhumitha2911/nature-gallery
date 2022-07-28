@@ -9,7 +9,7 @@ const styles = theme => ({
     justifyContent: 'center',
     alignContent: 'center',
     flexWrap: 'wrap',
-    padding: '0 300px 0 300px'
+    padding: '0 300px 50px 300px'
   }
 });
 
